@@ -10,7 +10,7 @@ set -euo pipefail
 # ── Config ────────────────────────────────────────────────────────────────────
 AWS_REGION="us-east-1"
 APP_NAME="enterprise-gh-app"
-GITHUB_REPO="Raj-pro/Efficient-Workflows-and-Security-Practices"
+GITHUB_REPO="devopsbyraham/githubactions-new-project"
 IAM_ROLE_NAME="GitHubActionsECSRole"
 
 # ── Colours ───────────────────────────────────────────────────────────────────
