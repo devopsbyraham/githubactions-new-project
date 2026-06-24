@@ -4,7 +4,7 @@
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
   "memory": "512",
-  "executionRoleArn": "arn:aws:iam::387084400255:role/GitHubActionsECSRole",
+  "executionRoleArn": "executionRoleArn":"arn:aws:iam::387084400255:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "name": "enterprise-gh-app-container",
