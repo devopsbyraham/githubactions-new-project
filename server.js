@@ -7,7 +7,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('<h1>GitHub Actions to AWS ECS Deployment Successful!</h1>');
+  res.send('<h1>GitHub Actions to AWS ECS Deployment Successful done v-1!</h1>');
 });
 
 const server = app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
