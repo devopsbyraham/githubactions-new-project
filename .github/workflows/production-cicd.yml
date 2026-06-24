@@ -1,10 +1,10 @@
 name: Enterprise AWS CI/CD Pipeline
 
-on:
+on: 
   push:
     branches: [ "main" ]
 
-# Only one deployment runs at a time; cancels any in-progress run on new push
+# Only one deployment runs at a time; cancels any in-progress run on new push  
 concurrency:
   group: production-deployment
   cancel-in-progress: true
