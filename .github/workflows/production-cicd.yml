@@ -14,7 +14,7 @@ permissions:
   id-token: write        # Request JWT from GitHub for OIDC
   contents: read         # Clone the repository
   security-events: write # Upload CodeQL/Trivy results to GitHub Security tab
-  packages: write        # Push images to GitHub Container Registry
+  packages: write        # Push images to GitHub Container Registry 
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
