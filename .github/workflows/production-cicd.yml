@@ -4,8 +4,8 @@ on:
   push:
     branches: [ "main" ]
 
-# Only one deployment runs at a time; cancels any in-progress run on new push  
-concurrency:
+# Only one deployment runs at a time; cancels any in-progress run on new push   
+concurrency: 
   group: production-deployment
   cancel-in-progress: true
 
